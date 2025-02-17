@@ -4,147 +4,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>篮球鞋店</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Basketball Shoes - Purchase and Recycling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0056b3;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #333;
+        }
+
+      .product {
+            border: 2px solid #0056b3;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+      .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+      .product-details {
+            margin-top: 15px;
+        }
+
+      .product-details p {
+            margin: 8px 0;
+            font-size: 16px;
+        }
+
+      .product-details strong {
+            color: #0056b3;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- 头部 -->
-    <header>
-        <h1>篮球鞋店</h1>
-    </header>
+    <h1>Basketball Shoes Purchase and Recycling</h1>
 
-    <!-- 导航栏 -->
-    <nav>
-        <ul>
-            <li><a href="#">首页</a></li>
-            <li><a href="#">商品列表</a></li>
-            <li><a href="#">关于我们</a></li>
-            <li><a href="#">联系我们</a></li>
-        </ul>
-    </nav>
-
-    <!-- 商品展示区 -->
-    <section class="product-section">
-        <h2>热门商品</h2>
-        <div class="product">
-            <img src="https://via.placeholder.com/300x200?text=Basketball+Shoes+1" alt="篮球鞋 1">
-            <h3>篮球鞋 1</h3>
-            <p>这是一款非常舒适的篮球鞋，适合各种篮球比赛。</p>
-            <p class="price">$120</p>
-            <button>加入购物车</button>
+    <h2>Kobe Shoes</h2>
+    <!-- Kobe 1 example -->
+    <div class="product">
+        <img src="kobe1.jpg" alt="Kobe 1">
+        <div class="product-details">
+            <p><strong>Model:</strong> Kobe 1</p>
+            <p><strong>Color Options:</strong> Black/White, Black/Red, White/Blue</p>
+            <p><strong>Available Sizes:</strong> US 8, 8.5, 9, 9.5, 10, 10.5, 11</p>
+            <p><strong>Condition:</strong>
+                <ul>
+                    <li>New: Brand - new, never worn, with original box and tags.</li>
+                    <li>Second - hand: Gently used, with normal signs of wear. Quality - checked and cleaned.</li>
+                    <li>Signed: Authenticated signature by Kobe Bryant, comes with a certificate of authenticity.</li>
+                </ul>
+            </p>
+            <p><strong>Description:</strong> The Kobe 1 was the first signature shoe for Kobe Bryant under Nike. It features a unique shark - tooth inspired midsole design, providing excellent grip. The upper is made of high - quality leather, ensuring durability. The shoe also has a visible Zoom Air unit in the heel for responsive cushioning.</p>
         </div>
-        <div class="product">
-            <img src="https://via.placeholder.com/300x200?text=Basketball+Shoes+2" alt="篮球鞋 2">
-            <h3>篮球鞋 2</h3>
-            <p>高性能篮球鞋，提供出色的支撑和稳定性。</p>
-            <p class="price">$150</p>
-            <button>加入购物车</button>
+    </div>
+
+    <!-- Kobe 2 example -->
+    <div class="product">
+        <img src="kobe2.jpg" alt="Kobe 2">
+        <div class="product-details">
+            <p><strong>Model:</strong> Kobe 2</p>
+            <p><strong>Color Options:</strong> Purple/Gold, Green/Black, Black/Yellow</p>
+            <p><strong>Available Sizes:</strong> US 7.5, 8, 8.5, 9, 9.5, 10, 10.5</p>
+            <p><strong>Condition:</strong>
+                <ul>
+                    <li>New: Brand - new condition, ready for the collector or the first - time wearer.</li>
+                    <li>Second - hand: Well - maintained, with only minor scuffs. Inspected for any structural issues.</li>
+                    <li>Signed: Guaranteed authentic signature, a must - have for die - hard fans.</li>
+                </ul>
+            </p>
+            <p><strong>Description:</strong> The Kobe 2 showcases a more streamlined design compared to its predecessor. It has a full - length Zoom Air unit for enhanced cushioning throughout the foot. The upper is constructed with a combination of synthetic materials and mesh, offering both breathability and support.</p>
         </div>
-    </section>
+    </div>
 
-    <!-- 关于我们 -->
-    <section class="about-section">
-        <h2>关于我们</h2>
-        <p>我们是一家专注于篮球鞋销售的店铺，致力于为广大篮球爱好者提供高品质、时尚的篮球鞋。我们拥有丰富的产品线，涵盖了各种品牌和款式，满足不同客户的需求。</p>
-    </section>
+    <h2>Jordan Shoes</h2>
+    <!-- Jordan 1 example -->
+    <div class="product">
+        <img src="jordan1.jpg" alt="Jordan 1">
+        <div class="product-details">
+            <p><strong>Model:</strong> Jordan 1</p>
+            <p><strong>Color Options:</strong> Red/Black, Blue/White, Black/Grey</p>
+            <p><strong>Available Sizes:</strong> US 7, 7.5, 8, 8.5, 9, 9.5, 10</p>
+            <p><strong>Condition:</strong>
+                <ul>
+                    <li>New: Brand - new in box, perfect for sneakerheads and collectors.</li>
+                    <li>Second - hand: Worn with care, with the iconic Jordan 1 style still intact.</li>
+                    <li>Signed: Signature by Michael Jordan himself, a rare and valuable item.</li>
+                </ul>
+            </p>
+            <p><strong>Description:</strong> The Jordan 1 is the shoe that started it all. It revolutionized basketball footwear with its bold color blocking and high - top design. The leather upper is durable and stylish, while the rubber outsole provides excellent traction on the court.</p>
+        </div>
+    </div>
 
-    <!-- 页脚 -->
-    <footer>
-        <p>&copy; 2025 篮球鞋店. 保留所有权利.</p>
-    </footer>
+    <!-- Jordan 3 example -->
+    <div class="product">
+        <img src="jordan3.jpg" alt="Jordan 3">
+        <div class="product-details">
+            <p><strong>Model:</strong> Jordan 3</p>
+            <p><strong>Color Options:</strong> White/Black/Red, Cement Grey/Black, Royal Blue/White</p>
+            <p><strong>Available Sizes:</strong> US 8, 8.5, 9, 9.5, 10, 10.5, 11</p>
+            <p><strong>Condition:</strong>
+                <ul>
+                    <li>New: Brand - new, with the original packaging and all accessories.</li>
+                    <li>Second - hand: Good condition, with some signs of wear on the sole, but the overall quality remains high.</li>
+                    <li>Signed: An authenticated signature makes this a prized possession for Jordan fans.</li>
+                </ul>
+            </p>
+            <p><strong>Description:</strong> The Jordan 3 introduced the iconic Jumpman logo. It features a visible Air Sole unit in the heel for cushioning. The elephant print on the toe and heel adds a unique and stylish touch to the shoe, making it one of the most recognizable Jordan models.</p>
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+    <h2>Nike Shoes</h2>
+    <!-- Nike Air Max 90 example -->
+    <div class="product">
+        <img src="nikeairmax90.jpg" alt="Nike Air Max 90">
+        <div class="product-details">
+            <p><strong>Model:</strong> Nike Air Max 90</p>
+            <p><strong>Color Options:</strong> Black/White, Red/Black, Blue/Yellow, 14 different colorways available</p>
+            <p><strong>Available Sizes:</strong> US 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11</p>
+            <p><strong>Condition:</strong>
+                <ul>
+                    <li>New: Brand - new, ready to hit the streets or the gym.</li>
+                    <li>Second - hand: Used but in good condition, with the Air Max unit still providing great cushioning.</li>
+                    <li>Signed: Signed by a Nike - sponsored athlete, adding a special touch to the shoe.</li>
+                </ul>
+            </p>
+            <p><strong>Description:</strong> The Nike Air Max 90 is a classic sneaker known for its visible Air Max unit in the heel, which provides superior cushioning. The upper is made of a combination of leather, synthetic materials, and mesh, ensuring breathability and durability. It has a timeless design that can be worn for both sports and casual occasions.</p>
+        </div>
+    </div>
+
+    <!-- Nike Dunk Low example -->
+    <div class="product">
+        <img src="nikedunklow.jpg" alt="Nike Dunk Low">
+        <div class="product-details">
+            <p><strong>Model:</strong> Nike Dunk Low</p>
+            <p><strong>Color Options:</strong> Over 21 color combinations including classic Black/White, and trendy Pastel colorways</p>
+            <p><strong>Available Sizes:</strong> US 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10</p>
+            <p><strong>Condition:</strong>
+                <ul>
+                    <li>New: Brand - new, with the original box and laces.</li>
+                    <li>Second - hand: Worn but still in great shape, with the signature Dunk Low style intact.</li>
+                    <li>Signed: Authenticated signature from a famous basketball player, a collector's item.</li>
+                </ul>
+            </p>
+            <p><strong>Description:</strong> The Nike Dunk Low is a versatile sneaker that has been popular since its release. It has a low - top design for added mobility. The leather upper is durable, and the rubber outsole offers good traction. It's a great choice for both basketball and everyday wear.</p>
+        </div>
+    </div>
+
 </body>
 
 </html>
-/* 全局样式 */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
 
-header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-nav {
-    background-color: #444;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-}
-
-.product-section {
-    padding: 20px;
-    text-align: center;
-}
-
-.product {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 20px;
-    display: inline-block;
-    width: 300px;
-}
-
-.product img {
-    width: 100%;
-    height: auto;
-}
-
-.price {
-    font-weight: bold;
-    color: #ff5722;
-}
-
-button {
-    background-color: #ff5722;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #f44336;
-}
-
-.about-section {
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
